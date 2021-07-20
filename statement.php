@@ -24,11 +24,11 @@
 
     $activity = null;
 
-    // // if condition
-    // if ($weekDay === $monday) {
-    //     $activity = 'Watch movie';
-    // }
-    // var_dump('activity is (after if statement): '. $activity);
+    // if condition
+    if ($weekDay === $monday) {
+        $activity = 'Watch movie';
+    }
+    var_dump('activity is (after if statement): '. $activity);
 
     // switch condition
     switch($weekDay) {
